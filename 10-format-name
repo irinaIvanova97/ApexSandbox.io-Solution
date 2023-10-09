@@ -1,9 +1,9 @@
 public String formatName(String firstName, String lastName) {
     if(String.isBlank(firstName) && String isBlank(lastName)) {
         return '';
-    } else if(String.isNotBlank(firstName) && String isBlank(lastName)) {
+    } else if(String.isNotBlank(firstName) && String.isBlank(lastName)) {
         return firstName;
-    } else if(String.isBlank(firstName) && String isNotBlank(lastName)) {
+    } else if(String.isBlank(firstName) && String.isNotBlank(lastName)) {
         return lastName;
     } else {
         return lastName + ', ' + firstName;
