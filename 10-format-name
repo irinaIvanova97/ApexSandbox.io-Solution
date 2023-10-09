@@ -1,5 +1,5 @@
 public String formatName(String firstName, String lastName) {
-    if(String.isBlank(firstName) && String isBlank(lastName)) {
+    if(String.isBlank(firstName) && String.isBlank(lastName)) {
         return '';
     } else if(String.isNotBlank(firstName) && String.isBlank(lastName)) {
         return firstName;
@@ -8,4 +8,6 @@ public String formatName(String firstName, String lastName) {
     } else {
         return lastName + ', ' + firstName;
     }
+
+    return '';
 }
