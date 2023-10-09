@@ -1,3 +1,4 @@
 public Boolean isEndWithZero(Integer num){
-    return String.valueOf(num).endsWith('0');
+    //return String.valueOf(num).endsWith('0');
+    return Math.mod(num, 10) == 0;
 }
